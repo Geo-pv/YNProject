@@ -11,99 +11,104 @@
   </head>
   
   <body>
-    <header>    
-        <div class="section1">
-            <img alt="" class="izobrazhenie-2" src="images/изображение 2.png"/>
-        </div>   
-        <div class="top-header fixed-top w-100">
-            <div class="container">
+    <header>  
+      <div class="section-img">
+        <img alt="" class="izobrazhenie-2 mg-fluid" src="images/фон_шапки.jpg"/>
+      </div> 
+  
+      <div class="top-header fixed-top w-100">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <ul>
+                <li>
+                  <b><a class="nav-link" href="#"> +7 (495) 230-50-08</a></b>
+                </li>
+                <li>
+                  <a href="#"> <img class="pic-img" src="images/image-PhotoRoom.png-PhotoRoom.png"></a>
+                </li>
+                <li>
+                  <b><a class="nav-link" href="#"> г. Москва, ул. Сосновая, д. 20</a></b>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bottom-header fixed-top w-100">
+        <nav class="navbar">
+          <ul  class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Номера</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Бронирование</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Отзывы</a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="justify-content-center position-absolute top-50 start-50 translate-middle section-text">
+        <div class="row">
+          <div class="col-2">
+            <h1 class="text-overlay">Услуги</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="castom-bg-form container">
             <div class="row">
-              <div class="col">
-                <ul>
-                  <li>
-                    <b><a class="nav-link" href="#"> +7 (495) 230-50-08</a></b>
-                  </li>
-                  <li>
-                    <a href="#"> <img class="pic-img" src="images/image-PhotoRoom.png-PhotoRoom.png"></a>
-                  </li>
-                  <li>
-                    <b><a class="nav-link" href="#"> г. Москва, ул. Сосновая, д. 20</a></b>
-                  </li>
-                </ul>
-      
+              <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                <div class="text-control">
+                  <div class="br-1">
+                    Бронирование номеров
+                  </div>
+                  <div class="br-2">
+                    Гарантированное заселение
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2 d-flex justify-content-center align-items-center">
+                <div class="form-col w-100">
+                  <label for="check-in" class="form-label">Заезд</label>
+                  <input type="date" class="form-control w-100" id="check-in" >
+                </div>
+              </div>
+              <div class="col-12 col-xl-2 d-flex justify-content-center align-items-center">
+                <div class=" form-col w-100">
+                  <label for="departure" class="form-label">Выезд</label>
+                  <input type="date" class="form-control w-100" id="departure">
+                </div>
+              </div>
+              <div class="col-12 col-xl-3 d-flex justify-content-center align-items-center">
+                <div class=" form-col w-100">
+                  <label for="guests" class="form-label">Гости</label>
+                  <select class="form-control w-100">
+                    <option>2 взрослых, 0 детей</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2 d-flex justify-content-center align-items-center">
+                
+                <button type="submit" class="btn  w-100 me-3" >Найти номер</button>
               </div>
             </div>
-            </div>
-        </div>
-        <div class="bottom-header fixed-top w-100">
-            <nav class="navbar">
-              <ul  class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Главная</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Номера</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Стандартный</a></li>
-                    <li><a class="dropdown-item" href="#">Улучшенный</a></li>
-                    <li><a class="dropdown-item" href="#">Со спальной комнатой</a></li>
-                    <li><a class="dropdown-item" href="#">Апартаменты</a></li>
-                    <li><a class="dropdown-item" href="#">Студия</a></li>
-                    <li><a class="dropdown-item" href="#">Люкс </a></li>
-                    <li><a class="dropdown-item" href="#">Двухэтажный </a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Бронирование</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Услуги</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Отзывы</a>
-                  </li>
-              </ul>
-            </nav>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-4">
-              <h1 class="text-overlay">Услуги</h1>
-            </div>
-        </div>
-        <div class="f-br">
-          <div class="text-control">
-            <div class="br-1">
-              Бронирование номеров
-            </div>
-            <div class="br-2">
-              Гарантированное заселение
-            </div>
-          </div>
-          <div class="Z_V_G_input-control">
-                  <div class="z-control">
-                    <div class="label-control">Заезд</div>
-                    <div class="calendar-controle">
-                      <input type="text" class="Control-input2" unselectable="on" readonly value="22.04.2023">
-                    </div>
-                </div>
-                <div class="v-control">
-                  <div class="label-control">Выезд</div>
-                  <div class="calendar-controle">
-                    <input type="text" class="Control-input2" unselectable="on" readonly value="22.05.2023">
-                  </div>
-                </div>
-                <div class="g-control">
-                  <div class="label-control">Гости</div>
-                  <div class="input-controle">
-                    <input type="text" class="Control-input2" unselectable="on" readonly value="2 взрослых, 0 детей"> 
-                    
-                  </div>
-                </div>
-                <div class="button-control">
-                  <input type="button" class="control-button"  value="Найти номер">
-                </div>
           </div>
         </div>
+      </div>
+    </div>
     </header>
 
     <main>
@@ -120,15 +125,15 @@
               <p>Wi-Fi во всех номерах и общественных зонах</p>
             </div>
             <div class="counter-box">
-              <i><img src="images/Wi-Fi Logo.png"></i>
+              <i><img src="images/Parking.png"></i>
                <p>Подземная автомобильная стоянка</p> 
             </div>
             <div class="counter-box">
-              <i><img src="images/Wi-Fi Logo.png"></i>
+              <i><img src="images/Washing Machine.png"></i>
               <p>Аквачистка и прачечная </p> 
             </div>
             <div class="counter-box">
-              <i><img src="images/Wi-Fi Logo.png"></i>
+              <i><img src="images/Insert Credit Card.png"></i>
               <p>Банкомат</p> 
             </div>
           </div>   
@@ -138,31 +143,34 @@
           <h3>Платные</h3>
           <div class="row row-cols-3 con" >
             <div class="counter-box">
-              <i><img src="images/Wi-Fi Logo.png"></i>
-               <p>Визовая поддержка</p> 
+              <i><img style="width: 70px;
+                height: 70px;" src="images/free-icon-dinner-272186.png"></i>
+               <p>КАфе</p> 
              </div>
              <div class="counter-box">
-               <i><img src="images/Wi-Fi Logo.png"></i>
+               <i><img src="images/🦆 icon _room service_.png"></i>
                <p>Круглосуточное обслуживание в номерах - Room Service </p> 
              </div>
              <div class="counter-box">
-               <i><img src="images/Wi-Fi Logo.png"></i>
+               <i><img style="width: 70px;
+                height: 70px;" src="images/free-icon-businessman-126327.png"></i>
                <p>Организация деловых и частных мероприятий</p> 
              </div>
              <div class="counter-box">
-               <i><img src="images/Wi-Fi Logo.png"></i>
+               <i><img style="width: 70px;
+                height: 70px;" src="images/free-icon-matryoshka-doll-4612209.png"></i>
                 <p>Сувенирная лавка</p> 
               </div>
               <div class="counter-box">
-                 <i><img src="images/Wi-Fi Logo.png"></i>
+                 <i><img src="images/🦆 icon _taxi_.png"></i>
                  <p>КолТрансфер в аэропорты и на вокзалы; аренда машин, заказ такси онка</p> 
                </div>
                <div class="counter-box">
-                 <i><img src="images/Wi-Fi Logo.png"></i>
+                 <i><img src="images/free-icon-marriage-3174721 1.png"></i>
                  <p>Проведение свадеб, выездных регистраций, банкетов</p> 
                </div>
                <div class="counter-box">
-                 <i><img src="images/Wi-Fi Logo.png"></i>
+                 <i><img src="images/free-icon-spa-3521043 1.png"></i>
                  <p>СПА-центр, салон красоты</p> 
                </div>
           </div>   
@@ -173,7 +181,7 @@
   </main>
   
     
-<footer class="text-center text-lg-start bg-light text-muted ">
+  <footer class="text-center text-lg-start bg-light text-muted ">
     <section class="d-flex justify-content-center justify-content-lg-between footer">
       <div class="container text-center text-md-start mt-5">
         <div class="row mt-3">
@@ -191,7 +199,7 @@
               <a href="#!" class="text-reset">Услуги</a>
             </p>
           </div>
-
+  
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="text-uppercase fw-bold mb-4">
                 Дополнительная информация
@@ -224,7 +232,7 @@
               <a href="#!" class="text-reset">Гарантия и сервис</a>
             </p>
           </div>
-
+  
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="text-uppercase fw-bold mb-4">
                 Контакты
@@ -237,18 +245,22 @@
               <a href="#!" class="text-reset">+7 (495) 230-50-08</a>
             </p>
           </div>
-
+  
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 class="text-uppercase fw-bold mb-4">Мы в социальных сетях </h6>
             <p>
                
             </p>
-
+  
           </div>
         </div>
       </div>
     </section>
-    <div class="text-center p-4 border-top" style="background-color: #002138; color: #FFFFFF;">
+    <div class="text-center p-4 border-top" style="background-color: #002138; color: #FFFFFF; font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;">
         © 2023 / Компания «Andaz» / Информация на сайте не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ</div>
   </footer>
 
