@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andaz</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+    <header>  
+      <div class="section-img">
+        <img alt="" class="izobrazhenie-2 mg-fluid" src="images/фон_шапки.jpg"/>
+      </div> 
+  
+      <div class="top-header fixed-top w-100">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <ul>
+                <li>
+                  <b><a class="nav-link" href="#"> +7 (495) 230-50-08</a></b>
+                </li>
+                <li>
+                  <a href="#"> <img class="pic-img" src="images/image-PhotoRoom.png-PhotoRoom.png"></a>
+                </li>
+                <li>
+                  <b><a class="nav-link" href="#"> г. Москва, ул. Сосновая, д. 20</a></b>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="bottom-header fixed-top w-100">
+        <nav class="navbar">
+          <ul  class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Номера</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Бронирование</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Отзывы</a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="justify-content-center position-absolute top-50 start-50 translate-middle section-text">
+        <div class="row">
+          <div class="col-2">
+            <h1 class="text-overlay">Отзывы</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="castom-bg-form container">
+            <div class="row">
+              <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+                <div class="text-control">
+                  <div class="br-1">
+                    Бронирование номеров
+                  </div>
+                  <div class="br-2">
+                    Гарантированное заселение
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2 d-flex justify-content-center align-items-center">
+                <div class="form-col w-100">
+                  <label for="check-in" class="form-label">Заезд</label>
+                  <input type="date" class="form-control w-100" id="check-in" >
+                </div>
+              </div>
+              <div class="col-12 col-xl-2 d-flex justify-content-center align-items-center">
+                <div class=" form-col w-100">
+                  <label for="departure" class="form-label">Выезд</label>
+                  <input type="date" class="form-control w-100" id="departure">
+                </div>
+              </div>
+              <div class="col-12 col-xl-3 d-flex justify-content-center align-items-center">
+                <div class=" form-col w-100">
+                  <label for="guests" class="form-label">Гости</label>
+                  <select class="form-control w-100">
+                    <option>2 взрослых, 0 детей</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2 d-flex justify-content-center align-items-center">
+                
+                <button type="submit" class="btn  w-100 me-3" >Найти номер</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/4.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>              <div class="card-body">
+                <h5 class="card-title">Стандарт эконом</h5>
+                  <div class="row row-cols-2" style="margin-top: 30px;">
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/🦆 icon _people outline_.png"></i>
+                      <p class="ms-3">до 2 мест</p>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/arrows-angle-expand.png"></i>
+                      <p class="ms-3">14 м²</p>
+                    </div>
+                  </div>
+                  <div class="row row-cols-2" style="margin-top: 50px;">
+                    <div class="col">
+                      от 2 886 <br>
+                      руб./сут.</div>
+                    <div class="col">
+                      <a href="#" class="btn btn-primary button">Подробнее...</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div id="carouselExampleIndicators1" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/21.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/22.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>              <div class="card-body">
+                <h5 class="card-title">Стандарт одноместный</h5>
+                  <div class="row row-cols-2" style="margin-top: 30px;">
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/🦆 icon _people outline_.png"></i>
+                      <p class="ms-3">до 1 мест</p>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/arrows-angle-expand.png"></i>
+                      <p class="ms-3">12 м²</p>
+                    </div>
+                  </div>
+                  <div class="row row-cols-2" style="margin-top: 50px;">
+                    <div class="col">
+                      от 2 416 <br>
+                      руб./сут.</div>
+                    <div class="col">
+                      <a href="#" class="btn btn-primary button">Подробнее...</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div id="carouselExampleIndicators2" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/31.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/32.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/33.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/34.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>              <div class="card-body">
+                <h5 class="card-title">Стандарт</h5>
+                  <div class="row row-cols-2" style="margin-top: 30px;">
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/🦆 icon _people outline_.png"></i>
+                      <p class="ms-3">до 2 мест</p>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/arrows-angle-expand.png"></i>
+                      <p class="ms-3">14 м²</p>
+                    </div>
+                  </div>
+                  <div class="row row-cols-2" style="margin-top: 50px;">
+                    <div class="col">
+                      от 2 534 <br>
+                      руб./сут.</div>
+                    <div class="col">
+                      <a href="#" class="btn btn-primary button">Подробнее...</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div id="carouselExampleIndicators4" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/44.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/42.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/43.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/41.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>              <div class="card-body">
+                <h5 class="card-title">Стандарт трехместный</h5>
+                  <div class="row row-cols-2" style="margin-top: 30px;">
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/🦆 icon _people outline_.png"></i>
+                      <p class="ms-3">до 3 мест</p>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/arrows-angle-expand.png"></i>
+                      <p class="ms-3">16 м²</p>
+                    </div>
+                  </div>
+                  <div class="row row-cols-2" style="margin-top: 50px;">
+                    <div class="col">
+                      от 4 577 <br>
+                      руб./сут.</div>
+                    <div class="col">
+                      <a href="#" class="btn btn-primary button">Подробнее...</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div id="carouselExampleIndicators5" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/51.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/52.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/53.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/55.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>              <div class="card-body">
+                <h5 class="card-title">Стандарт с балконом</h5>
+                  <div class="row row-cols-2" style="margin-top: 30px;">
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/🦆 icon _people outline_.png"></i>
+                      <p class="ms-3">до 2 мест</p>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/arrows-angle-expand.png"></i>
+                      <p class="ms-3">14 м²</p>
+                    </div>
+                  </div>
+                  <div class="row row-cols-2" style="margin-top: 50px;">
+                    <div class="col">
+                      от 2 753<br>
+                      руб./сут.</div>
+                    <div class="col">
+                      <a href="#" class="btn btn-primary button">Подробнее...</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div id="carouselExampleIndicators6" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/61.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/62.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/63.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>              <div class="card-body">
+                <h5 class="card-title">Стандарт с балконом трехместный</h5>
+                  <div class="row row-cols-2" style="margin-top: 30px;">
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/🦆 icon _people outline_.png"></i>
+                      <p class="ms-3">до 2 мест</p>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                      <i><img src="images/arrows-angle-expand.png"></i>
+                      <p class="ms-3">21 м²</p>
+                    </div>
+                  </div>
+                  <div class="row row-cols-2" style="margin-top: 20px;">
+                    <div class="col">
+                      от 4 742<br>
+                      руб./сут.</div>
+                    <div class="col">
+                      <a href="#" class="btn btn-primary button">Подробнее...</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    
+    <footer class="text-center text-lg-start bg-light text-muted ">
+      <section class="d-flex justify-content-center justify-content-lg-between footer">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                  Об Отеле
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Номера</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Контакты</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Услуги</a>
+              </p>
+            </div>
+    
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                  Дополнительная информация
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Для юридических лиц</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Правила проживания</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Правовая информация</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Пользовательское соглашени</a>
+              </p>
+              <p>
+                  <a href="#!" class="text-reset">Политика конфиденциальности</a>
+                </p>
+            </div>
+      
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                  Помощь
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Оплата и доставка</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Гарантия и сервис</a>
+              </p>
+            </div>
+    
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                  Контакты
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">г. Москва, ул. 
+                  Сосновая, д. 20</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">+7 (495) 230-50-08</a>
+              </p>
+            </div>
+    
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Мы в социальных сетях </h6>
+              <p>
+                 
+              </p>
+    
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-4 border-top" style="background-color: #002138; color: #FFFFFF; font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 16px;">
+          © 2023 / Компания «Andaz» / Информация на сайте не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ</div>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,270 @@
+/* озображение под шапками */
+.section-img{
+    position: relative;
+}
+.section-img img{
+    display: block;
+}
+.section-img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+}
+.izobrazhenie-2 {
+    width: 100%;
+    height: 100%;
+}
+/* первая шапка */
+.top-header{
+    background-color: rgba(255, 255, 255, 0.85);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+.top-header a{
+color: #000000;
+text-decoration: none;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 28px;
+}
+a:hover{
+    color: grey;
+}
+.top-header ul{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 50px;
+
+}
+.top-header ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.top-header ul.text-end{
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.top-header ul li a i{
+    margin-right: 8px;
+}
+.pic-img{
+    width: 150px;
+    height: 150px;
+    margin-left: 170px;
+    margin-right: 170px;
+    object-fit: contain;
+}
+/* вторая шапка */
+.bottom-header{
+    background-color: rgba(217, 217, 217, 0.8);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 166px; 
+}
+.navbar{
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item:not(:last-of-type) {
+    margin-right: 80px;
+  }
+.navbar img:first-child{
+ margin-right: 10px;
+}
+.navbar .names{
+    margin-left: 10px;
+}
+.navbar .names p{
+font-size: 15px;
+margin: 0;
+font-weight: bold;
+}
+
+.nav-link {
+   color: #000000; 
+   font-size: 18px;
+   font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+.nav-link:hover{
+    color: grey;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.text-overlay {
+    position: absolute;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+}
+/* панель поиска номера */
+.castom-bg-form {
+    position: absolute;
+    background-color: #abadb1;
+    top: 460px;
+}
+.castom-bg-form .text-control{
+    font-family: 'Merriweather';
+    font-weight: 900;
+}
+.form-label{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+}
+.castom-bg-form  .form-col {
+    background-color: #c4c0c0;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn {
+    background-color: #5984D6; 
+    color: #fff; 
+    font-family: 'Manrope'; 
+    font-size: 25px;
+}
+.div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.calendar-controle{
+ border: none;
+}
+
+article section{
+    margin: 94px auto 0 auto;
+    width: 82%;
+}
+.card-nom{
+    display: flex;
+    top: 50px;
+    position: relative;
+}
+.carousel-indicators{
+    top: 170px;
+}
+.p-gos{
+width: 1120px;
+height: 108px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.nom{
+    position: relative;
+    text-align: center;
+    
+}
+
+
+/* футер*/
+.footer{
+    background-color: #002138;
+    color: #FFFFFF;
+}
+footer a{
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+footer h6{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+
+
+main{
+    margin-top: 120px;
+    margin-bottom: 55px;
+}
+.card{
+    margin-left: 48px;
+    margin-bottom: 50px;
+    width: 340px;
+    height: 430px;
+}
+
+.carousel-item img{
+    width: 340px;
+    height: 200px;
+}
+.card .button{
+    background-color: #5984D6; 
+    color: #fff; 
+    font-family: 'Manrope'; 
+    font-size: 20px;
+}
+.card-title{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+.card .ms-3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+.card .col{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+.card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius:0px 0px 12px 12px ;
+    }
+  
