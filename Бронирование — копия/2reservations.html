@@ -11,12 +11,13 @@
   </head>
   
   <body>
-    <header>    
-      <div class="section1">
-          <img alt="" class="izobrazhenie-2" src="images/изображение 2.png"/>
-      </div>   
+    <header>  
+      <div class="section-img">
+        <img alt="" class="izobrazhenie-2 mg-fluid" src="images/фон_шапки.jpg"/>
+      </div> 
+  
       <div class="top-header fixed-top w-100">
-          <div class="container">
+        <div class="container">
           <div class="row">
             <div class="col">
               <ul>
@@ -30,81 +31,79 @@
                   <b><a class="nav-link" href="#"> г. Москва, ул. Сосновая, д. 20</a></b>
                 </li>
               </ul>
-    
             </div>
           </div>
-          </div>
+        </div>
       </div>
+  
       <div class="bottom-header fixed-top w-100">
-          <nav class="navbar">
-            <ul  class="nav justify-content-center">
+        <nav class="navbar">
+          <ul  class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Номера</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Бронирование</a>
+            </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Главная</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Номера</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Стандартный</a></li>
-                  <li><a class="dropdown-item" href="#">Улучшенный</a></li>
-                  <li><a class="dropdown-item" href="#">Со спальной комнатой</a></li>
-                  <li><a class="dropdown-item" href="#">Апартаменты</a></li>
-                  <li><a class="dropdown-item" href="#">Студия</a></li>
-                  <li><a class="dropdown-item" href="#">Люкс </a></li>
-                  <li><a class="dropdown-item" href="#">Двухэтажный </a></li>
-                </ul>
+                <a class="nav-link" href="#">Услуги</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Бронирование</a>
+                <a class="nav-link" href="#">Отзывы</a>
               </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Услуги</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Отзывы</a>
-                </li>
-            </ul>
-          </nav>
+          </ul>
+        </nav>
       </div>
-      <div class="row justify-content-center">
-          <div class="col-4">
-            <h1 class="text-overlay">Бронирование номеров</h1>
+      <div class="justify-content-center position-absolute top-50 start-50 translate-middle section-text">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-overlay">Бронирование номера</h1>
           </div>
+        </div>
       </div>
-     
-  </header>
+    </div>
+    </header>
   <main>
     
     <div class="container">
-      <form class="form1 justify-content-center">
-        <div class="row justify-content-center mb-4">
-          <h2>Выберите даты заезда, выезда и количество гостей</h2>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-7 mb-3">
-            <label for="checkInDate">Дата заезда</label>
-            <input type="date" class="form-control" id="checkInDate">
-          </div>
-          <div class="col-md-7 mb-3">
-            <label for="checkOutDate">Дата выезда</label>
-            <input type="date" class="form-control" id="checkOutDate">
-          </div>
-          <div class="col-md-7 mb-3">
-            <label for="guestsNumber">Количество гостей</label>
-            <select class="form-control" id="guestsNumber">
-              <option selected>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-            <div class="col-md-7">
-              <button type="submit" class="btn btn-primary  text-center">Найти номер</button>
+      <div class="row justify-content-center form1">
+        <div class="col-sm-8 col-md-10">
+          <form class="form-inline rounded p-4 ">
+            <div class="row justify-content-center mb-4">
+              <h2>Выберите даты заезда, выезда и количество гостей</h2>
             </div>
+            <div class="form-group mr-3">
+              <label for="checkin" class="text">Дата заезда:</label>
+              <input type="date" id="checkin" name="checkin" class="form-control ml-2">
+            </div>
+    
+            <div class="form-group mr-3">
+              <label for="checkout" class="text">Дата выезда:</label>
+              <input type="date" id="checkout" name="checkout" class="form-control ml-2">
+            </div>
+    
+            <div class="form-group mr-3">
+              <label for="guests" class="text">Количество гостей:</label>
+              <select class="form-control" id="guests">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+            </div>
+    
+            <button type="submit" class="btn">Найти номер</button>
+          </form>
         </div>
-        
-      </form>
+      </div>
     </div>
+    
+    
+    
+    
     
   </main>
   <footer class="text-center text-lg-start bg-light text-muted ">
@@ -125,7 +124,7 @@
               <a href="#!" class="text-reset">Услуги</a>
             </p>
           </div>
-
+  
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="text-uppercase fw-bold mb-4">
                 Дополнительная информация
@@ -158,7 +157,7 @@
               <a href="#!" class="text-reset">Гарантия и сервис</a>
             </p>
           </div>
-
+  
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="text-uppercase fw-bold mb-4">
                 Контакты
@@ -171,18 +170,22 @@
               <a href="#!" class="text-reset">+7 (495) 230-50-08</a>
             </p>
           </div>
-
+  
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 class="text-uppercase fw-bold mb-4">Мы в социальных сетях </h6>
             <p>
                
             </p>
-
+  
           </div>
         </div>
       </div>
     </section>
-    <div class="text-center p-4 border-top" style="background-color: #002138; color: #FFFFFF;">
+    <div class="text-center p-4 border-top" style="background-color: #002138; color: #FFFFFF; font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;">
         © 2023 / Компания «Andaz» / Информация на сайте не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ</div>
   </footer>
 

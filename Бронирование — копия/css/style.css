@@ -1,0 +1,180 @@
+/* озображение под шапками */
+.section-img{
+    position: relative;
+}
+.section-img img{
+    display: block;
+}
+.section-img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+}
+.izobrazhenie-2 {
+    width: 100%;
+    height: 100%;
+}
+/* первая шапка */
+.top-header{
+    background-color: rgba(255, 255, 255, 0.85);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+.top-header a{
+color: #000000;
+text-decoration: none;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 28px;
+}
+a:hover{
+    color: grey;
+}
+.top-header ul{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 50px;
+
+}
+.top-header ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.top-header ul.text-end{
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.top-header ul li a i{
+    margin-right: 8px;
+}
+.pic-img{
+    width: 150px;
+    height: 150px;
+    margin-left: 170px;
+    margin-right: 170px;
+    object-fit: contain;
+}
+/* вторая шапка */
+.bottom-header{
+    background-color: rgba(217, 217, 217, 0.8);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 166px; 
+}
+.navbar{
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item:not(:last-of-type) {
+    margin-right: 80px;
+  }
+.navbar img:first-child{
+ margin-right: 10px;
+}
+.navbar .names{
+    margin-left: 10px;
+}
+.navbar .names p{
+font-size: 15px;
+margin: 0;
+font-weight: bold;
+}
+
+.nav-link {
+   color: #000000; 
+   font-size: 18px;
+   font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+.nav-link:hover{
+    color: grey;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.text-overlay {
+    position: absolute;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+}
+
+/* форма бронирования*/ 
+.form1 {
+    padding: 20px;
+    background-color: rgba(89, 132, 214, 0.13);
+    max-width: 700px;
+    margin: 60px auto;
+    border-radius: 2%;
+  }
+  
+.form-group{
+    margin-top: 30px;
+}
+form button{
+    margin-top: 30px;
+}
+form .btn{
+    background-color: #5984D6;
+    color: #fff;
+}
+form h2{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+form label{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+/* футер*/
+.footer{
+    background-color: #002138;
+    color: #FFFFFF;
+}
+footer a{
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+}
+footer h6{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+} 
