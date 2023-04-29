@@ -1,0 +1,84 @@
+.top-header{
+    background-color:  rgba(89, 132, 214,0.83);
+    margin-top: -8px;
+    color: #FFFFFF;
+}
+.top-header h3{
+    padding: 30px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+.navbar-nav{
+    padding-left: 50px;
+}
+.nav-item{
+    padding-left: 30px;
+}
+
+.nav-item a{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.bottom {
+  background-color: rgba(89, 132, 214, 0.13);
+}
+.navbar-nav .nav-link {
+    color: #000000; 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #808080; 
+  }
+  
+main{
+    margin: 50px;
+}
+
+main .progr{
+    margin-bottom: 30px;
+}
+
+.table{
+    margin-bottom: 40px; 
+}
+table thead{
+    background-color: #cfe2ff;
+}
+.table-bordered{
+    border-color: black;
+}
+
+.section{
+    background: rgba(89, 132, 214, 0.13); 
+    padding: 40px;
+}
+
+main h3{
+    font-family: 'Merriweather';
+    font-style: normal;
+}
+
+footer div{
+    background-color: #002138;
+    color: #FFFFFF;
+}
+footer p{
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+main form label{
+    font-size: 20px;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+.form-check label{
+    font-size: 17px;
+    font-family: 'Manrope';
+    font-style: normal;
+}
