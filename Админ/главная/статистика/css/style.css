@@ -1,0 +1,58 @@
+.top-header{
+    background-color:  rgba(89, 132, 214,0.83);
+    margin-top: -8px;
+    color: #FFFFFF;
+}
+.top-header h3{
+    padding: 30px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+.navbar-nav{
+    padding-left: 50px;
+}
+.nav-item{
+    padding-left: 30px;
+}
+
+.nav-item a{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.bottom {
+  background-color: rgba(89, 132, 214, 0.13);
+}
+.navbar-nav .nav-link {
+    color: #000000; 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #808080; 
+  }
+
+main h1{
+    font-family: 'Merriweather';
+    font-style: normal;
+}  
+
+main h4{
+    font-family: 'Merriweather';
+    font-style: normal;
+}
+main ul li{
+    font-family: 'Manrope';
+    font-style: normal;
+}
+footer div{
+    background-color: #002138;
+    color: #FFFFFF;
+}
+footer p{
+    font-family: 'Manrope';
+    font-style: normal;
+}
