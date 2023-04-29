@@ -1,0 +1,75 @@
+.top-header{
+    background-color:  rgba(89, 132, 214,0.83);
+    margin-top: -8px;
+    color: #FFFFFF;
+}
+.top-header h3{
+    padding: 30px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+.navbar-nav{
+    padding-left: 50px;
+}
+.nav-item{
+    padding-left: 30px;
+}
+
+.nav-item a{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.bottom {
+  background-color: rgba(89, 132, 214, 0.13);
+}
+.navbar-nav .nav-link {
+    color: #000000; 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #808080; 
+  }
+  
+main h2{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+main .btn{
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+table{
+    font-family: 'Manrope';
+    font-style: normal;
+}
+table thead {
+    background-color: #cfe2ff;
+  }
+label{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+}
+th:nth-child(6),
+td:nth-child(6) {
+  width: 280px;
+}
+
+
+
+footer div{
+    background-color: #002138;
+    color: #FFFFFF;
+}
+footer p{
+    font-family: 'Manrope';
+    font-style: normal;
+}
